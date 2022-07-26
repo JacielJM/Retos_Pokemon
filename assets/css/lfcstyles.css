@@ -1,0 +1,15 @@
+body {
+  font-family: "JetBrains Mono";
+  background-color: silver;
+}
+img {
+  max-width: 20vw;
+}
+
+.cabecera {
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 10px;
+}
