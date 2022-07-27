@@ -1,15 +1,51 @@
 body {
   font-family: "JetBrains Mono";
-  background-color: silver;
+  background-color: rgb(192, 192, 192);
+  background-image: url("/assets/images/lfc2.jpg"),
+    url("/assets/images/fabulososcadilac.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: contain;
 }
+
+h1 {
+  text-shadow: 1px 2px 2px hsl(108, 100%, 11%);
+}
+
+iframe {
+  border-radius: 12px;
+  width: 100%;
+  height: 80px;
+  border: none;
+}
+
 img {
   max-width: 20vw;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  height: auto;
 }
 
 .cabecera {
   text-align: center;
   font-size: 30px;
-  border: 2px solid gray;
-  border-radius: 15px;
   padding: 10px;
+}
+
+.biografia,
+.discografia {
+  background-color: rgba(128, 128, 128, 0.5);
+  margin: 15px;
+  border-radius: 15px;
+  padding: 3px 10px 5px 10px;
+  text-align: justify;
+  box-shadow: 2px 2px 7px 1px rgb(0, 0, 0);
+}
+
+#lfc {
+  text-shadow: 1px 2px 2px rgb(255, 200, 151);
 }
